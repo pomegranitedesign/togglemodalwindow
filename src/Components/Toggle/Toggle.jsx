@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './Toggle.css';
 
 export default class Toggle extends Component {
   state = {
     on: false
   }
   
-  toggle() {
+  toggle = () => {
     this.setState(prevState => ({on: !prevState.on}));
   }
   

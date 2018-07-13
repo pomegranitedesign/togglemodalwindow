@@ -1,0 +1,8 @@
+.ModalWrapper {
+  position: absolute;
+  overflow: hidden;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  
+}
