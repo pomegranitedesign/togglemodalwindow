@@ -4,6 +4,8 @@ A small side project to practice modern React.js patterns.
 ## Open Source
 Feel free to try it on your machine.
 
+![App Screenshot](http://res.cloudinary.com/pomegranitedesign/image/upload/c_scale,h_575/v1531505034/Screen_Shot_2018-07-13_at_14.02.27-fullpage_pvlx6p.png)
+
 ### Installation
 1. Clone git repository
 2. Install dependencies
