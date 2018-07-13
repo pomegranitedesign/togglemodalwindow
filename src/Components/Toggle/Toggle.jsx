@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Toggle.css';
+import assignedClass from './Toggle.css';
 
 export default class Toggle extends Component {
   state = {
