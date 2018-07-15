@@ -18,3 +18,35 @@
   background-color: #130f40;
   opacity: 0.7;
 }
+
+.SlideIn {
+  animation: slideIn 300ms 1 cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.SlideOut {
+  animation: slideOut 300ms 1 cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+}

@@ -31,8 +31,8 @@ export default class Modal extends Component {
         className={assignedClass.ModalWrapper}
         onClick={this.props.toggle}
       >
-        <ModalWindow>
-          <h1>Toggle</h1>
+        <ModalWindow className={on ? assignedClass.SlideIn : null}>
+          <h1>Click Anywhere To Exit</h1>
         </ModalWindow>
 
         <div className={assignedClass.Background} />
